@@ -7,7 +7,7 @@ import pandas as pd
 graph = figure(title = "Bokeh Scatter Graph")
  
 # reading the database
-data = pd.read_csv("tips.csv")
+data = pd.read_csv("src/tips.csv")
  
 color = magma(256)
  
